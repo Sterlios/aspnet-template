@@ -264,10 +264,10 @@ Update any project-specific values, such as:
 
 ## CI/CD
 
-Check the GitLab CI configuration:
+Check the GitHub CI configuration:
 
 ```text
-.gitlab-ci.yml
+github-ci.yml
 ```
 
 Update any project-specific settings, such as:
@@ -338,7 +338,7 @@ Before starting development, make sure:
 * [ ] `using` directives were updated
 * [ ] `appsettings.json` was configured
 * [ ] Docker configuration was checked
-* [ ] GitLab CI/CD configuration was checked
+* [ ] GitHub CI/CD configuration was checked
 * [ ] All unintended `Template` references were removed
 * [ ] `dotnet restore` succeeds
 * [ ] `dotnet build` succeeds
